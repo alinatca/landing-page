@@ -1,0 +1,139 @@
+h1 {
+  text-align: center;
+  color: #4d4947;
+}
+
+h2 {
+  padding: 5px;
+  color: #4d4947;
+  margin: 0;
+}
+
+a {
+  color: #fcf7f4;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding-top: 15px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans",
+    "Bitstream Vera Sans", sans-serif;
+  background-color: #fcf7f4;
+  margin-top: 5%;
+
+}
+
+/* Nav section */
+
+header {
+  margin: 0;
+  padding: 0;
+  background-color: #24614f;
+  line-height: 1.5;
+  height: 50px;
+  border-bottom: solid 10px #dbae93;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+  padding-top: 3px;
+}
+
+ul {
+  text-align: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+  height: 10%;
+}
+
+/* Main Section */
+
+.image-coming-soon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+figcaption {
+  text-align: center;
+  padding: 2%;
+  color: #4d4947;
+}
+
+
+
+/* Contact section */
+
+#contact-me {
+  background-color: #e7cdbe;
+  text-align: center;
+  border-top: solid 5px #dbae93;
+  height: 200px;
+  padding: 30px;
+
+}
+
+form {
+  border: solid 5px #dbae93;
+  width: 30%;
+  padding: 5px;
+  border-radius: 25px;
+  display: inline-block;
+  text-align: center;
+  
+}
+
+label {
+  color: #54381e;
+}
+
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #a6827e;
+  background: linear-gradient(to bottom, #4d4947 5%, #634b30 100%);
+  background-color: 4d4947;
+  border-radius: 3px;
+  border: 1px solid #54381e;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #4d3534;
+  margin-top: 10px;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+  background-color: #634b30;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/* Footer section */
+
+footer {
+  margin: 0;
+  padding: 0px;
+  background-color: #24614f;
+  line-height: 1.5;
+  text-align: center;
+  color: #fcf7f4;
+  height: 50px;
+}
